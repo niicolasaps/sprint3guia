@@ -1,0 +1,122 @@
+{
+    "head": {
+      "title": "",
+      "stylesheets": [],
+      "scripts": []
+    },
+    "body": {
+      "logoContainer": {
+        "link": "index.html",
+        "logoImage": "./Fotos/Logo.png",
+        "altText": "Logo",
+        "class": "logo"
+      },
+      "content": {
+        "title": "Bem-vindo à SAGS!",
+        "modalBody": [
+          {
+            "tag": "p",
+            "text": "Este guia foi elaborado para oferecer uma visão geral da SAGS e das várias ferramentas e controles que integramos ao produto para preservar a segurança da nossa comunidade."
+          },
+          {
+            "tag": "h1",
+            "text": "O que é a SAGS?"
+          },
+          {
+            "tag": "p",
+            "text": "SAGS é uma plataforma para armazenar e gerenciar suas senhas. É um lugar para você que gostaria de armazenar os logins de suas contas de forma segura e obtê-los a qualquer momento de maneira muito prática."
+          },
+          {
+            "tag": "h1",
+            "text": "Passos iniciais"
+          },
+          {
+            "tag": "p",
+            "text": "Crie sua conta informando seu e-mail e a senha que utilizará em nossa plataforma. Ao criar, você terá acesso a nossa plataforma já podendo criar e armazenar os logins que utiliza."
+          },
+          {
+            "tag": "div",
+            "class": "center",
+            "children": [
+              {
+                "tag": "button",
+                "class": "button type1",
+                "attributes": {
+                  "data-bs-toggle": "modal",
+                  "data-bs-target": "#videoModal"
+                },
+                "text": "Vídeo"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "class": "modal fade",
+            "id": "videoModal",
+            "attributes": {
+              "tabindex": "-1",
+              "aria-labelledby": "videoModalLabel",
+              "aria-hidden": "true"
+            },
+            "children": [
+              {
+                "tag": "div",
+                "class": "modal-dialog modal-dialog-centered",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "modal-content",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "class": "modal-body",
+                        "children": [
+                          {
+                            "tag": "video",
+                            "attributes": {
+                              "controls": ""
+                            },
+                            "children": [
+                              {
+                                "tag": "source",
+                                "src": ".teste/do/video.mp44",
+                                "type": "video/mp4"
+                              },
+                              {
+                                "tag": "text",
+                                "text": "Desculpe, o vídeo não pôde ser carregado."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "script",
+            "text": "function openVideoModal() {\n  $('#videoModal').modal('show');\n}"
+          },
+          {
+            "tag": "h1",
+            "text": "Informações básicas sobre a SAGS"
+          },
+          {
+            "tag": "p",
+            "text": "A SAGS oferece um espaço para os usuários armazenarem seus logins e ficarem despreocupados em nunca mais esquecer quanto a segurança."
+          },
+          {
+            "tag": "h1",
+            "text": "Sua privacidade"
+          },
+          {
+            "tag": "p",
+            "text": "Ao usar a SAGS, processamos suas informações para viabilizar o uso e a funcionalidade da plataforma. Também usamos as informações para preservar a segurança de todos. Estamos empenhados em respeitar e proteger sua privacidade."
+          }
+        ]
+      }
+    }
+  }
